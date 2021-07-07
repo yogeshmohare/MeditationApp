@@ -8,7 +8,6 @@ let breathLeft = 3;
 //watching for selected breath from user
 numberOfBreaths.addEventListener("change", () => {
   breathLeft = numberOfBreaths.value;
-  console.log(breathLeft);
   breathText.innerText = breathLeft;
 });
 
